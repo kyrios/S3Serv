@@ -1,0 +1,10 @@
+{
+  "name": "S3Serv",
+  "description": "A simple webserver serving files if they are correctl signed by the S3 Auth mechanism. Provide a key and a folder to serve on the commandline",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "colors": "x"
+  }
+}
