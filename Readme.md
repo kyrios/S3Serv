@@ -1,0 +1,1 @@
+== A simple webserver in node.js that authenticates access to files with the Amazon S3 scheme. ==
