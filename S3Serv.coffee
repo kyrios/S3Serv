@@ -85,7 +85,6 @@ validateSignature = (awskey, awssecret) ->
 
 		ourSignature = crypto.createHmac('sha1', awssecret).update(stringToSign).digest('base64')
 		theirSignature = req.query.Signature.replace(' ','+')
-		theirSignature = req.query.Signature.replace(/\x20/g,'+')
 		if(ourSignature == theirSignature)
 			next()
 		else
