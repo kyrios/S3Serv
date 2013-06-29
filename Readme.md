@@ -13,8 +13,10 @@ Install the dependencies
 	coffee s3serv.coffee
 ### Running in node.js
 1. Compile the coffeescript to javascript
+
 	coffee -c s3serv.coffee
 2. Run the thing
+
 	node s3serv.js
 
 
